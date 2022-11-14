@@ -1,2 +1,2 @@
-# flat-lander.github.io
-Public webpage for hub.flatlander.social
+# flatlander-about
+Simple static site to introduce flatlander.social
