@@ -19,8 +19,8 @@ locale                   : "en-US"
 title                    : "Flatlander.Social"
 title_separator          : "-"
 subtitle                 : "A social network from the land of flat"
-name                     : "Joel Hill"
-description              : "An amazing website."
+name                     : "Flatlander"
+description              : "Online community hub for flatlander.social"
 url                      : "https://hub.flatlander.social"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "flat-lander/flat-lander.github.io"
@@ -104,7 +104,7 @@ analytics:
 
 # Site Author
 author:
-  name             : ""
+  name             : "Flatlander"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "Somewhere"
@@ -285,8 +285,8 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
+      author_profile: false
+      read_time: false
       comments: # true
       share: true
       related: true

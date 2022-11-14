@@ -1,0 +1,90 @@
+---
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+@import url('https://fonts.googleapis.com/css?family=Wire+One');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+.page__hero--overlay {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.9);
+    .page__title {
+        margin-bottom: 0.1em;
+        font-size: 5.5em;
+        font-family: 'Amatic SC', cursive;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.9);
+    }
+    .page__lead {
+        margin-top: 0.1em;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.9);
+    }
+
+    .btn {
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.9);
+        box-shadow: 2px 2px 4px rgba(0,0,0,0.2);;
+    }
+}
+
+.site-title {
+    font-size: 1.5em;;
+    font-family: 'Amatic SC', cursive;
+}
+
+.site-subtitle {
+    font-size: 0.5em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.page__title {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.4em;
+}
+
+.page__lead {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, p {
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.archive__item-title {
+    font-family: 'Amatic SC', cursive; 
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+.masthead__inner-wrap {
+    font-family: 'Josefin Sans', sans-serif;   
+}
+
+.btn {
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+.page__footer-follow, .page__footer-copyright {
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+// Overriding SendInBlue form styling
+
+.sib-form {
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif !important; 
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+
+  #sib-container {
+    margin: 0 auto !important;
+    padding: 0px !important;
+    width: 100%;
+  }
