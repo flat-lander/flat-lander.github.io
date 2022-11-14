@@ -7,10 +7,10 @@ header:
   overlay_filter: "0.1"
   overlay_image: /assets/images/prairie_storm.png
   actions:
-    - label: "Learn More"
+    - label: "Subscribe for Updates"
       url: "/sign-up"
 #   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "A community driven social network"
+excerpt: "A community driven social network born in the Canadian Prairies"
 intro: 
   - excerpt: 'Flatlander will be a community driven social network powered by free and open source software. Launching in 2023.'
 feature_row:
