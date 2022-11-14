@@ -137,7 +137,7 @@ Flatlander.social will be available sometime in 2023. Until then, please provide
                     document.getElementById('sib-captcha').dispatchEvent(event);
                   }
                 </script>
-                <div class="g-recaptcha sib-visible-recaptcha" id="sib-captcha" data-sitekey="6LcPpwMjAAAAALLADQtJBHwX-wSBIodXktFNlOU1" data-callback="handleCaptchaResponse"></div>
+                <div class="g-recaptcha sib-visible-recaptcha" id="sib-captcha" data-sitekey="6LdAtAgjAAAAACSO7LbUuqMNBzlqb0ajpXGv5mSB" data-callback="handleCaptchaResponse"></div>
               </div>
               <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
               </label>
