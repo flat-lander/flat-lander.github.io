@@ -4,15 +4,15 @@ layout: splash
 permalink: /
 header:
   overlay_color: "#000"
-  overlay_filter: "0.0"
+  overlay_filter: "0.3"
   overlay_image: /assets/images/prairie_storm.png
   actions:
     - label: "Subscribe for Updates"
       url: "/sign-up"
 #   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "A community driven social network born in the Canadian Prairies"
+excerpt: "A social network born in the Canadian Prairies"
 intro: 
-  - excerpt: 'Flatlander will be a community driven social network powered by free and open source software. Launching in 2023.'
+  - excerpt: 'Flatlander will be a community-driven social network powered by free and open source software. Launching in 2023.'
 feature_row:
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
@@ -46,11 +46,11 @@ feature_row3:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
+  - image_path: 
+    alt: 
+    title: "What is Flatlander?"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
+    url: "/updates/introducting-flatlander/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
@@ -63,4 +63,4 @@ feature_row4:
 
 <!-- {% include feature_row id="feature_row3" type="right" %} -->
 
-<!-- {% include feature_row id="feature_row4" type="center" %} -->
+<!-- {% include feature_row id="feature_row4" type="right" %} -->

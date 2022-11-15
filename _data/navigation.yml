@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Subscribe"
+    url: /sign-up
   - title: "About"
     url: /about
   - title: "Updates"

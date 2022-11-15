@@ -12,15 +12,15 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
+minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Flatlander.Social"
+title                    : "Flatlander"
 title_separator          : "-"
 subtitle                 : 
 name                     : "Flatlander"
-description              : "Online community hub for flatlander.social"
+description              : "Online community hub for flatlander"
 url                      : "https://hub.flatlander.social"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "flat-lander/flat-lander.github.io"
@@ -132,6 +132,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:flatlander@proton.me"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/joelghill"
